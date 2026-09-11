@@ -1,0 +1,50 @@
+@import "button";
+@import "display_center";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+body{
+    @include display-center();
+}
+
+main{
+    height: 60%;
+    width: 50%;
+    background-color: mediumvioletred;
+    @include display-center();
+
+    section{
+        height: 40%;
+        width: 40%;
+        background-color: lightseagreen;
+        @include display-center();
+        flex-direction: column;
+
+        h1{
+            font-size: 30px;
+            color:white;
+            text-align: center;
+        }
+
+        .btn{
+            @include display-center();
+
+            .green{
+               @include button(green, black)
+            }
+            .red{
+                @include button(red, black)
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 60%;
+  width: 50%;
+  background-color: mediumvioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section {
+  height: 40%;
+  width: 40%;
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main section h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+main section .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section .btn .green {
+  background-color: green;
+  height: 20px;
+  width: 100px;
+  border-radius: 20px;
+  outline: none;
+  color: black;
+  border: 10px black;
+}
+main section .btn .red {
+  background-color: red;
+  height: 20px;
+  width: 100px;
+  border-radius: 20px;
+  outline: none;
+  color: black;
+  border: 10px black;
+}/*# sourceMappingURL=style.css.map */

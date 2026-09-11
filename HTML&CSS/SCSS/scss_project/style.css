@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+body {
+  display: flex;
+  gap: 5px;
+}
+body section {
+  height: 100%;
+  flex-grow: 1;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+body section:nth-child(1) {
+  background-image: url(https://i.pinimg.com/1200x/b7/9d/a0/b79da0ee1218f65306f7e1b076791ef7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body section:nth-child(2) {
+  background-image: url(https://i.pinimg.com/1200x/6c/16/13/6c16136e0dcbda41580ad7651abfb455.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body section:nth-child(3) {
+  background-image: url(https://i.pinimg.com/736x/e2/a3/4b/e2a34b23f5b586afe592aec039e29496.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body section:nth-child(4) {
+  background-image: url(https://i.pinimg.com/736x/13/3c/f0/133cf00ce319b86e22951576b45ec099.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body section:nth-child(5) {
+  background-image: url(https://i.pinimg.com/736x/0f/b0/e5/0fb0e52063f11228fed5079b6fc43664.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body section:nth-child(6) {
+  background-image: url(https://i.pinimg.com/736x/77/e6/29/77e6296046640e38bf464967c2ad6195.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body section:nth-child(7) {
+  background-image: url(https://i.pinimg.com/736x/04/0a/51/040a51f117407591ad7dcb2f5fe3757a.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body section:nth-child(8) {
+  background-image: url(https://i.pinimg.com/1200x/b6/be/e4/b6bee472f690d967054638c8cac86171.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body section:nth-child(9) {
+  background-image: url(https://i.pinimg.com/736x/dd/86/95/dd8695d43a8233f34c0187db4bcb862a.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body section:nth-child(10) {
+  background-image: url(https://i.pinimg.com/1200x/eb/0f/0e/eb0f0e9132dec03e6f5d8f0af29e3c44.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body section:hover {
+  cursor: pointer;
+  flex-grow: 3;
+}/*# sourceMappingURL=style.css.map */
